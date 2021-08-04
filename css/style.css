@@ -1,0 +1,78 @@
+
+a:hover,
+a:active {
+  background-color: rgba(8, 7, 77, 0.616);
+  transition: 50ms;
+
+}
+a:link,a:visited{
+
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 6px;
+
+}
+header {
+    background-color: rgb(165, 155, 155);
+    margin-bottom: 15px;
+    
+}
+
+
+img {
+    margin: 15px;
+}
+
+li{
+    
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(114, 92, 92);
+margin-right: 100px;
+}
+
+
+footer {
+    background-color:  rgb(58, 58, 58);
+    height: 150px;
+    
+}
+
+
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+   
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
+button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+body {
+    text-align: center;
+    
+}
